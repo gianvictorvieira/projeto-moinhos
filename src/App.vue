@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Inicio/>
+  <div class="bg-dark"></div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Inicio from './components/IndexHome.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Inicio
   }
 }
 </script>
@@ -20,7 +20,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #000;
+  width: 100%;
+  height: 100%;
 }
 </style>
